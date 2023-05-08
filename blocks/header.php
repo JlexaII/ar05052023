@@ -17,7 +17,7 @@
 					(<span class="phone-code ya-phone-code">+7</span>) <span class="ya-phone-num">920-559-35-03</span>
 				</a>
 			</div>
-			<div class="flex_links">
+			<div class="flex_links"> 
 				<div class="nav-sm-wrap">
 				</div>
 				<div class="basket">
