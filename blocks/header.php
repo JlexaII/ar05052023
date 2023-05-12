@@ -2,13 +2,13 @@
 	<div class="container">
 		<div class="flex_wrap">
 			<div class="flex_logo">
-				<a class="logo" href="index.html">
+				<a class="logo" href="index.php">
 					<img src="images/logo3.png" alt="Осетинские Пироги" title="Осетинские Пироги" style="width: 100%;">
 			</div>
 			<div class="flex_work">
 				<div class="header-notes hidden-sm">Режим работы: с 10:00-20:00</div>
 				<div class="header-notes">
-					<a id="a_delivery" class="modals" href="./delivery.php" title="Доставка и оплата"><u>Доставка и
+					<a id="a_delivery" class="modals" href="delivery.php" title="Доставка и оплата"><u>Доставка и
 							оплата</u></a>
 				</div>
 			</div>
@@ -17,26 +17,20 @@
 					(<span class="phone-code ya-phone-code">+7</span>) <span class="ya-phone-num">920-559-35-03</span>
 				</a>
 			</div>
-			<div class="flex_links"> 
+			<div class="flex_links">
 				<div class="nav-sm-wrap">
 				</div>
 				<div class="basket">
-					
+
 				</div>
 </nav>
 <div class="header header1">
 	<div class="header-inner">
 		<div class="header-inner_wrap">
-
-
 			<div class="header_top">
 				<div class="flex_wrap">
-
 				</div>
 			</div>
-
-
-
 			<div class="header-categories header_body">
 
 			</div>

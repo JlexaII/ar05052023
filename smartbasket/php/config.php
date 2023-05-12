@@ -3,11 +3,11 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/phpmailer.p
 
 // *** SMTP *** //
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
+/* require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
 const HOST = 'sandbox.smtp.mailtrap.io';
 const LOGIN = '351b71c54cb015';
 const PASS = '24e5b8f5aafe61';
-const PORT = '2525';
+const PORT = '2525'; */
 
 // *** /SMTP *** //
  
