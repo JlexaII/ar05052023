@@ -8,7 +8,7 @@
 			<div class="flex_work">
 				<div class="header-notes hidden-sm">Режим работы: с 10:00-20:00</div>
 				<div class="header-notes">
-					<a id="a_delivery" class="modals" href="delivery.php" title="Доставка и оплата"><u>Доставка и
+					<a onclick="openModal()" class="modales" href="#" title="Доставка и оплата"><u>Доставка и
 							оплата</u></a>
 				</div>
 			</div>
@@ -135,3 +135,23 @@
 				</div>
 			</div>
 		</div>
+
+		<script>
+			function openModal() {
+				var modalWindow = window.open('delivery.html', '_blank', 'height=850,width=800,modal=yes,alwaysRaised=yes');
+
+				//если вы хотите, чтобы окно было центрировано на экране 
+				modalWindow.moveTo((screen.availWidth - 850) / 2, (screen.availHeight - 800) / 2);
+			}
+		</script>
+
+		<style>
+			.modales {
+				font-size: 28px;
+				line-height: 32px;
+				margin-right: 50px;
+				padding: 20px 0 15px 15px;
+				font-family: "Lobster", cursive;
+				color: #532f23;
+			}
+		</style>

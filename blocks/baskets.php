@@ -22,7 +22,7 @@
 			agreement: {
 				isRequired: true,
 				isChecked: true,
-				isLink: '',
+				isLink: 'oplata.php',
 			},
 			nameIsRequired: true,
 			telIsRequired: true,

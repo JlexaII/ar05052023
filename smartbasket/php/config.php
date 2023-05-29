@@ -10,8 +10,8 @@ const PASS = '24e5b8f5aafe61';
 const PORT = '2525'; */
 
 // *** /SMTP *** //
- 
-const SENDER = 'ahmedalisherj@gmail.com';
-const CATCHER = 'hadajan@mail.ru';
+
+const SENDER = 'tripiroga31@gmail.com';
+const CATCHER = 'ahmedalisherj@gmail.com';
 const SUBJECT = 'Заявка с сайта';
 const CHARSET = 'UTF-8';
