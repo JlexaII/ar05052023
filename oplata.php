@@ -33,7 +33,7 @@
                     echo "<tr><td></td><td>Сумма: </td><td>$quant</td><td></td><td>$totalPrice</td></tr>";
                 }
                 ?>
-                <input class="widget__input" id="donation-amount" value="<?php echo $totalPrice ?>" required>
+                <input class="widget__input" id="donation-amount" value="" required>
                 <iframe class="textss" id="iframe"
                     src="https://widget.qiwi.com/widgets/middle-widget-300x300?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPtQuuDszcZt3Gj7MUpRxKGo49f1uAuZRCx2VB2XUHkoV2pLgEd97fH1w7HQpNxirxhfGqfGHgM3VHXnKCR2k8Tp1qWmfNvgZQCybmtSjq6&noCache=true&amount=<?php echo $totalPrice ?>"
                     width="300" height="180" allowTransparency="true" scrolling="no" frameBorder="0">
@@ -87,7 +87,6 @@
 
 
     var iframe = document.getElementById('iframe');
-
     iframe.addEventListener('load', function () {
         var widgetWindow = iframe.contentWindow;
         widgetWindow.WIDGET_API.setShowMoneyInput(true);
@@ -104,4 +103,6 @@
             iframe.contentWindow.postMessage({ type: "setAmount", amount: value }, "*");
         }
     }
+
+    document.getElementById("donation-amount").value = $totalPrice;
 </script>
